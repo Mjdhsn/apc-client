@@ -1,0 +1,32 @@
+.select {
+   
+    // width: 20rem;
+    display: flex;
+    gap: 1rem;
+    white-space: nowrap;
+    align-items: center;
+    margin-top: -.5rem;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    .table {
+        margin-top: .5rem;
+        min-width: 20rem;
+        overflow: auto;
+        height: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .select{
+        flex-wrap: wrap;
+    }
+    .container{
+        width: auto;
+    }
+}

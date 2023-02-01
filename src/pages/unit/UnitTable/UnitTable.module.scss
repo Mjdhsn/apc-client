@@ -1,0 +1,97 @@
+$mobile: 560px;
+$tab: 800px;
+.table {
+  width: 85%;
+  border-collapse: collapse;
+  @media screen and (max-width: $tab) {
+    width: 100%;
+    font-size: 0.8rem; 
+  }
+
+  thead {
+    text-align: left;
+
+    th {
+      padding: 1rem;
+      @media screen and (max-width: $mobile) {
+        &:first-child {
+          display: none;
+        }
+        &:nth-child(4){
+          display: none;
+        }
+        &:nth-child(5){
+            display: none;
+          }
+      }
+    }
+  }
+
+  .tableRow {
+    border-bottom: 0.5px solid rgb(197, 197, 197);
+    &:hover {
+      background: rgb(239, 239, 239);
+      cursor: pointer;
+    }
+  }
+  .tableCell {
+    padding: 1rem;
+    text-align: left;
+    @media screen and (max-width: $mobile) {
+      &:nth-of-type(1)
+      {
+        display: none;
+      }
+      &:nth-of-type(4)
+      {
+        display: none;
+      }
+      &:nth-of-type(5)
+      {
+        display: none;
+      }
+    }
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    background-color: rgb(255, 70, 70);
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 50%;
+    border-radius: 45%;
+    color: white;
+  }
+
+  .thumbnail {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .columnHead {
+    vertical-align: bottom;
+    :first-child {
+      margin-bottom: 20px;
+    }
+  }
+
+  .defaultColumnFilter {
+    height: 30px;
+  }
+
+  .fileSelect{
+    border: none;
+    outline: none;
+  }
+}
+
+.table {
+  &.unitTable {
+    .columnHead:nth-of-type(1) {
+      width: 10%;
+    }
+    
+  }
+}

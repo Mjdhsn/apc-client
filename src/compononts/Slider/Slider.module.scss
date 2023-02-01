@@ -1,0 +1,14 @@
+$tablet: 1000px;
+$mobile: 486px;
+
+.slider {
+  border-radius: 10px;
+
+  .slide {
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

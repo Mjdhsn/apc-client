@@ -1,0 +1,40 @@
+.visualization{
+    background-color:white;
+   height:90vh;
+   padding: 16px; 
+   padding-top: 80px; 
+   
+}
+
+.banner{
+    margin-top: 16px;
+}
+
+.cellContainer {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  .aboutus-title{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 64px;
+    margin-left: 72px;
+}
+
+.aboutus-text{
+    margin-top: 16px;
+    margin-left: 72px;
+    padding-right: 48px;
+}
+
+.list{
+    display:flex;
+    margin-bottom: 4px;
+}
+.list-title{
+    margin-left: 8px;
+}

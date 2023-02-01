@@ -1,0 +1,33 @@
+.tabs{
+   
+    .tab_head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #d4d3d3;
+        width: fit-content;
+        margin: auto;
+        border-radius: 6px;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-bottom: 25px;
+
+        span{
+            padding: 7px 20px;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+        .tab_active{
+            background-color: var(--primary);
+            color: white;  
+        }
+        span:not(:last-child){
+            border-right:  1px solid #d4d3d3;;
+        }
+    }
+
+    .tab_body{
+
+    }
+    
+}

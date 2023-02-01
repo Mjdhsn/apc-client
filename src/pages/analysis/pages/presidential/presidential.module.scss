@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 75rem;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+// .analysis{
+//     ul{
+//        border-bottom: none;
+//        margin-top: 10px;  
+
+//         li{
+//            border: none;
+//         }
+//         li.react-tabs__tab--selected{
+//             background: #6b6b6b;
+//             color: white;
+//             border-radius: 7px;
+//         }
+//     } 
+//  }

@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    display: flex;
+    height: calc(100vh - 5rem);
+
+    .sidebar{
+        width: 20%;
+        max-width: 18rem;
+        padding: 1rem;
+        background: #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        .sidebarHead{
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 2rem;
+        }
+
+        .navLink{
+            margin-top: 2rem;
+            border-radius: 5px;
+            &:nth-of-type(1)
+            {
+                margin-top: 4rem;
+            }
+            span{
+                font-size: 1.1rem;
+                font-weight: 500;
+            }
+        }
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        padding-top: 3rem;
+    }
+}

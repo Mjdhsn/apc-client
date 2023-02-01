@@ -1,0 +1,92 @@
+.results {
+    background-color: white;
+    height: 90vh;
+    padding: 16px;
+    padding-top: 80px;
+
+}
+
+.heading h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+.container table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-items: center;
+}
+
+.container .dropdown {
+    margin-top: 60px;
+}
+
+
+.container .container2 {
+    margin-top: 40px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .comboBoxesWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+
+    @media screen and (max-width: 672px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    span {
+      font-size: 1.2rem;
+    }
+
+    .comboBox {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      @media screen and (max-width: 672px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .searchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--headerBlack);
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-self: flex-end;
+    color: white;
+    height: 70%;
+    gap: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    &:hover {
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 672px) {
+      align-self: center;
+    }
+  }

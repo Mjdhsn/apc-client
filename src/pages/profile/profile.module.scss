@@ -1,0 +1,208 @@
+.profile{
+
+    &_card{
+        max-width: 600px;
+        margin: auto;
+        background: #ebebeb;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-bottom: 30px;
+        border-radius: 19px;
+        padding: 19px;
+    }
+
+    &_photos{
+        height: 160px;
+        background: #c0c0c0;
+        border-radius: 13px;
+        position: relative;
+        margin-bottom: 80px;
+
+        &_avatar img{
+            width: 130px;
+            background: white;
+            height: 130px;
+            border-radius: 50%;
+            border: 2px solid white;
+            position: absolute;
+            left: 44px;
+            bottom: -44px;
+            user-select: none;
+            object-fit: cover;
+        }
+
+        button{
+            position: absolute;
+            bottom: -45px;
+            left: 140px;
+            color: white;
+        }
+    }
+
+    &_info{
+        
+        &_field{
+            text-align: start;
+            position: relative;
+            margin-top: 32px;
+            margin-bottom: 10px;
+
+            h4{
+                margin-top: 7px;
+                margin-bottom: 7px;
+                font-weight: 400;
+                background: #8b9190;
+                border-radius: 13px;
+                padding: 1px 15px;
+                width: fit-content;
+                color: white;
+                top: -18px;
+                position: absolute;
+                left: 12px;
+                font-size: 14px;
+                user-select: none;
+            }
+
+            & > div{
+                background: white;
+                color: #494949;
+                padding: 10px 15px;
+                border-radius: 7px;
+                padding-top: 22px;
+                font-weight: 500;
+            }
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        &_manager{
+            text-align: start;
+            margin-top: 15px;
+            
+            
+            h4{
+                font-weight: 500;
+                font-size: 18px;
+                color: #484848;
+                margin-bottom: 12px;
+            }
+
+            h2{
+                font-size: 17px;
+                font-weight: 500;
+                margin: 2px 0;
+                color: rgb(41, 41, 41);
+            }
+
+            p{
+                margin: 2px 0;
+                color: #4b4848;
+            }
+
+            &_info{
+                display: flex;
+                align-items: center;
+                gap: 17px;
+                background: white;
+                padding: 7px 14px;
+                border-radius: 11px;
+                width: fit-content;
+                cursor: pointer;
+            }
+
+            &_avatar img{
+                width: 60px;
+                background: #dddddd;
+                height: 60px;
+                border-radius: 50%;
+                border: 2px solid white;
+                user-select: none;
+                object-fit: cover;
+            }
+
+            &_texts{
+                
+            }
+
+        }
+
+    }
+
+    .back{
+        position: absolute;
+        left: 45px;
+        top: 105px;
+
+        svg{
+            font-size: 25px;
+            cursor: pointer;
+            color: var(--primary);
+        }
+    }
+
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #7a7878;
+    border: 1px solid #3f3e3e;
+    position: relative;
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &_wrapper{
+        position: absolute;
+        bottom: -55px;
+        left: 24px;
+
+       input{
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            cursor: pointer;
+            color: white;
+       }
+
+       input{
+          font-size: 300px;
+          opacity: 0;
+          z-index: 10;
+       }
+    }
+
+    .outline_avatar{
+        background: #00000080;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        color: white;
+        padding: 4px 0;
+    }
+}
+
+
+.avatarLoading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 74%);
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

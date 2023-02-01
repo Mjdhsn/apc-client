@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    margin: auto;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    @media (max-width: 640px) {
+        flex-wrap: wrap;
+    }
+}
+
+
+.container_2{
+    display: flex;
+    margin: auto;
+    gap: .5rem;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 10px 0;
+    
+    @media (max-width: 640px) {
+        flex-wrap: wrap;
+    }
+}

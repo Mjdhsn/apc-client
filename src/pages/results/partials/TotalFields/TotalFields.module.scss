@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.puTableContainer{
+    margin-top: 2rem;
+    max-width: 100%;
+    overflow-x: auto;
+}

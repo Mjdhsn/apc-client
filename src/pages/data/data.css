@@ -1,0 +1,68 @@
+.data {
+  background-color: white;
+
+  padding: 16px;
+  padding-top: 80px;
+}
+
+.div-image,
+.div-map,
+.div-remark,
+.div-ml-remark {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.option-box{
+  margin-top: 60px;
+
+  position: fixed;
+}
+
+.div-text {
+  margin-right: 32px;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: rgb(5%) 0px 8px 24px -2px;
+}
+.div-label {
+  margin-top: 72px;
+  height: 30px;
+
+  font-weight: bold;
+}
+
+.head-text {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.div-topic {
+  font-weight: bold;
+  text-align: start;
+
+  position: fixed;
+}
+
+.cell-label {
+  width: 30%;
+  float: left;
+  text-align: left;
+  align-items: center;
+}
+.cell {
+  width: 30%;
+  float: left;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.div-card {
+  padding-left: 8px;
+  height: 80px;
+  width: 100%;
+}

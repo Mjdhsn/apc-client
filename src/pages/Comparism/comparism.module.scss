@@ -1,0 +1,65 @@
+.comparism{
+    width: 100%;
+    margin: auto;
+    max-width: 75rem;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &_presidential{
+
+        &_result{
+           margin-top: 30px; 
+
+           &_tables{
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 30px;
+                justify-content: space-between;
+
+                .headTable{
+                    width: 48% !important;
+                    flex: auto;
+                }
+           }
+
+           .table{
+              text-align: start !important;
+              border: 1px solid #c8c2c2;
+              margin-top: 25px;
+
+              tr td{
+                border-right: 1px solid #dee2e6;
+              }
+           }
+
+           @media (min-width:1000px){
+             width: 70%;
+           }
+        }
+    }
+    
+    &_senate{}
+
+    &_rep{}
+    
+}
+
+
+// ------ TABLE WITH HEAD ------ 
+.headTable{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    &_head{
+        width: 100%;
+        padding: 8px 0;
+        background: #565656;
+        color: white;
+    }
+}

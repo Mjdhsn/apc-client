@@ -1,0 +1,48 @@
+$tab : 1000px;
+$mobile: 486px;
+
+.container {
+  display: flex;
+  height: calc(100vh - 4rem);
+  overflow: hidden;
+
+  > div {
+    flex: 1;
+    display: flex;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--headerBlack);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 1rem;
+    @media screen and (max-width: $mobile) {
+        display: none;
+    }
+    img {
+      width: 35rem;
+      height: 35rem;
+      @media screen and (max-width: $tab) {
+        width: 100%;
+    }
+    }
+    > :nth-child(2) {
+      margin-top: -4rem;
+      color: var(--grey);
+      font-size: 1rem;
+      padding: 2rem;
+    }
+
+ }
+    .right{
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+          
+    }
+  }
+}

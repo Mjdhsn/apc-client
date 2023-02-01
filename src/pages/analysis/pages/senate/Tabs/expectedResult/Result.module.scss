@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    margin: 50px 0;
+    max-width: 725px;
+
+    .performanceTableContainer {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        width: 100%;
+        
+        .performanceTable{
+            flex: auto;
+        }
+
+        @media (max-width: 768px){
+            flex-direction: column;
+            gap: 3rem;
+        }
+    }
+
+    .generalRemark{
+        margin-top: 50px;
+    }
+
+    .partyInfo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+
+        table{
+            border: 1px solid #cdcdcd;
+            
+            tbody{
+              text-align: start;
+            }
+            
+            th, td{
+                border-right: 1px solid #cdcdcd;
+            }
+        }
+    }
+}

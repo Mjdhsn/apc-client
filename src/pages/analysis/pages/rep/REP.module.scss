@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 75rem;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.state, .party{
+   margin: 30px 0; 
+
+   & > h4{
+        font-size: 16px;
+        font-weight: 500;
+        color: #303030;
+        text-align: start;
+
+        @media (min-width: 900px){
+            max-width: 775px;
+        }
+   } 
+
+}

@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    .input{
+        max-width: 10rem;
+    }
+    .button{
+        align-self: flex-end;
+        max-height: 2.2rem;
+        height: 100%;
+    }
+}

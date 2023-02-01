@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --headerBlack: #343434;
+  --grey: rgb(170, 170, 170);
+  --primary : #ee2a2d;
+  --primary-disable : #d7b7b7;
+  --primary-alert : #ee2a2d40;
+  --white : #ffffff;
+  --white-alt : #f5f5f5;
+}
+
+.App {
+  text-align: center;
+  font-family: "Poppins", "sans-serif";
+  position: relative;
+}
+
+body{
+  background-color: var(--white-alt);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input,
+textarea {
+  border: solid 1.5px #cac9c9;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+}
+
+textarea:hover {
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+}
+textarea:focus {
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
+  outline-width: 0px;
+}
+
+.button {
+  color: whitesmoke;
+  border-radius: 5px;
+  background-color: var(--primary);
+  padding: 3px 5px;
+  font-size: 0.8rem;
+  border: none;
+  vertical-align: center;
+  text-align: center;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button svg {
+  color: whitesmoke;
+}
+
+.breadCrumbs {
+  display: flex;
+  gap: 1rem;
+  align-self: flex-start;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.back {
+  background-color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+}
+.back > svg {
+  fill: white;
+}
+.back:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 1.2rem;
+  }
+}
+
+.thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+input {
+  border: none;
+  background: #f3f3f3;
+  font-family: inherit;
+  overflow: visible;
+  width: 100%;
+  text-transform: none;
+  color: #495057;
+  text-indent: 0px;
+  text-shadow: none;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 0.25rem;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+
+.without-head{
+  thead{
+    display: none;
+  }
+  tbody{
+    tr{
+      td:first-child{
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0px 0;
+  min-width: max-content;
+ text-transform: capitalize;
+  .td {
+      border: 1px solid rgba(114, 113, 113, 0.387);
+      text-align: center;
+      padding: 1.5rem;
+
+      .checkbox {
+          justify-content: center;
+      }
+  }
+}
+
+
+.MuiButton-root{
+  background-color: var(--primary) !important;
+  box-shadow: none !important;
+
+  &.Mui-disabled{
+    background-color: var(--primary-disable) !important;
+  }
+}

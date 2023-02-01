@@ -8,7 +8,7 @@ export default function Loader() {
   return (
     <div className='loader-container' >
       <Box sx={{ flexGrow: 1 }} >
-        <NewLoader style={{ margin: "auto" }} color="#ee2a2d" />
+        <NewLoader style={{ margin: "auto" }} color="#30a652" />
       </Box>      
     </div>
   );

@@ -103,7 +103,7 @@ const Country = ({ type = "info" }) => {
       <Header token={removeToken} />
       <PageWrapper>
         {isLoading || isFetching ? (
-          <Loader style={{ margin: "auto" }} color="#ee2a2d" />
+          <Loader style={{ margin: "auto" }} color="#30a652" />
         ) : (
           <div className={css.container}>
             <DataTable

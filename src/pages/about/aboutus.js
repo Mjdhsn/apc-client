@@ -17,7 +17,7 @@ const AboutUs = () => {
         <div className={css.about_content}>
           <h1>About Us</h1>
 
-          <p> The <strong>New Nigerian Peoples Party</strong> (NNPP) was one of the major political parties that contested elections in the Nigerian Second Republic. The party was made up of three major groups: the Lagos Progressives, Club 19, and the Nigerian Council of Understanding. The Lagos progressives included some Lagos based NCNC politicians such as Adeniran Ogunsanya, T.O.S. Benson and Kola Balogun. The National Council of understanding was led by Waziri while Club 19 had Matthew Mbu, Solomon Lar, Omo Omoruyi, Paul Unongo, Antonio Fernandez and others as members. </p>
+          <p> The <strong>All Progressives Congress</strong> (APC) is a Nigerian political party with a platform focused on good governance, economic growth, and improving the standard of living for all Nigerians. The party values diversity, free and fair elections, transparency, and the protection of human rights. Under the leadership of President Muhammadu Buhari, the APC has implemented reforms aimed at building a stronger, more inclusive society in Nigeria. The party is dedicated to promoting national unity and equality.</p>
         </div>
 
         <GridImage />

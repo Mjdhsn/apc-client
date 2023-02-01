@@ -90,7 +90,7 @@ export const firstpage_response = {
       },
       {
         "row_num": 13,
-        "party": "NNPP",
+        "party": "APC",
         "Scores": 0,
         "percentage_score": null
       },
@@ -473,7 +473,7 @@ export const country_result = {
         },
         {
           "row_num": 13,
-          "party": "NNPP",
+          "party": "APC",
           "Scores": 0,
           "percentage_score": null
         },
@@ -853,7 +853,7 @@ export const country_result = {
         },
         {
           "row_num": 13,
-          "party": "NNPP",
+          "party": "APC",
           "Scores": 0,
           "percentage_score": null
         },
@@ -1235,7 +1235,7 @@ export const country_result = {
         },
         {
           "row_num": 13,
-          "party": "NNPP",
+          "party": "APC",
           "Scores": 0,
           "percentage_score": null
         },
@@ -1615,7 +1615,7 @@ export const country_result = {
         },
         {
           "row_num": 13,
-          "party": "NNPP",
+          "party": "APC",
           "Scores": 0,
           "percentage_score": null
         },

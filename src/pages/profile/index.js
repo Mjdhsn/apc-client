@@ -100,7 +100,7 @@ const Index = () => {
                 </div>
             </div>
 
-            {selectedAvatar.length > 0 && <Button onClick={() => updateAvatar()}  loading={updateLoading} style={{ background : "#ee2a2d" }} > Update </Button>}
+            {selectedAvatar.length > 0 && <Button onClick={() => updateAvatar()}  loading={updateLoading} style={{ background : "#30a652" }} > Update </Button>}
           </div>
 
           <div className={css.profile_info} >

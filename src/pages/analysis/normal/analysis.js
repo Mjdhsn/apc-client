@@ -172,7 +172,7 @@ function Analysis(props) {
       accessor: "LP",
     },
     {
-      Header: "NNPP",
+      Header: "APC",
       accessor: "NNPP",
     },
     {

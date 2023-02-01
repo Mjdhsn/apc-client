@@ -81,7 +81,7 @@ const Header = (props) => {
           <img src={logo} />
 
           <div>
-            <span> NNPP 2023 </span>
+            <span> APC 2023 </span>
             <span>ELECTION TRACKER</span>
           </div>        
         </Link>

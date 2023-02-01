@@ -8,9 +8,9 @@ const State = () => {
 
   // demo data
   const demo_data = [
-    { serioul : 1, state : "Kano", district_code : "KANO CENTRAL", district : "KANO CENTRAL", party_won : "NNPP", party_won_ward: "NNPP", party_won_lga : "NNPP", party_won_district : "NNPP" },
-    { serioul : 2, state : "Kano", district_code : "KANO CENTRAL", district : "KANO CENTRAL", party_won : "NNPP", party_won_ward: "NNPP", party_won_lga : "NNPP", party_won_district : "NNPP" },
-    { serioul : 3, state : "Kano", district_code : "KANO CENTRAL", district : "KANO CENTRAL", party_won : "NNPP", party_won_ward: "NNPP", party_won_lga : "NNPP", party_won_district : "NNPP" },
+    { serioul : 1, state : "Kano", district_code : "KANO CENTRAL", district : "KANO CENTRAL", party_won : "APC", party_won_ward: "APC", party_won_lga : "APC", party_won_district : "APC" },
+    { serioul : 2, state : "Kano", district_code : "KANO CENTRAL", district : "KANO CENTRAL", party_won : "APC", party_won_ward: "APC", party_won_lga : "APC", party_won_district : "APC" },
+    { serioul : 3, state : "Kano", district_code : "KANO CENTRAL", district : "KANO CENTRAL", party_won : "APC", party_won_ward: "APC", party_won_lga : "APC", party_won_district : "APC" },
   ]
 
   return (

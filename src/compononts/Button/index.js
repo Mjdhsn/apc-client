@@ -21,7 +21,7 @@ function FBCircularProgress(props) {
         variant="indeterminate"
         disableShrink
         sx={{
-          color: "#ee2a2d",
+          color: "#30a652",
           animationDuration: '550ms',
           left: 0,
           [`& .${circularProgressClasses.circle}`]: {
